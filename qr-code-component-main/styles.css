@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+  /* COLORS */
+  --White: hsl(0, 0%, 100%);
+  --Light-gray: hsl(212, 45%, 89%);
+  --Grayish-blue: hsl(220, 15%, 55%);
+  --Dark-blue: hsl(218, 44%, 22%);
+
+  /* TYPOGRAFY */
+  --Font-size: 15px; /*paragraph*/
+  --font-outfit: "Outfit", sans-serif;
+  --font-weight-400: 400;
+  --font-weight-700: 700;
+}
+
+body {
+  background-color: var(--Light-gray);
+  font-family: var(--font-outfit);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+section {
+  background-color: var(--White);
+  display: flex;
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: center;
+  width: 235px;
+  height: 385px;
+  box-shadow: 17px 20px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.paragragh-one,
+.paragragh-two {
+  font-size: var(--Font-size);
+  text-align: justify;
+  margin: 15px;
+}
+
+.paragragh-one {
+  color: var(--Dark-blue);
+  font-weight: var(--font-weight-700);
+  text-align: center;
+}
+
+.paragragh-two {
+  color: var(--Grayish-blue);
+  font-weight: var(--font-weight-400);
+  text-align: center;
+}
+
+.qr-code {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  margin: 8px;
+}
